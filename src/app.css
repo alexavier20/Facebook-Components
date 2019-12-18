@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F2F2F2;
+    color: #595959;
+    font-size: 14px;
+}
+
+.div-header {
+    position: absolute;
+    width: -webkit-fill-available;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    background: #4A90E2;
+}
+
+.img-logo {
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 42px;
+    top: 20px;
+}
+
+.div-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-postList {   
+    width: 725px;   
+    left: 150px;
+    margin-top: 85px;
+}
+
+.div-boxPost {
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    box-shadow: 2px 2px 2px #aaaaaa;
+}
+
+.div-avatar {
+    margin:8px 8px 8px 16px
+}
+
+.div-content {
+    margin:8px 8px 8px 16px
+}
+
+.div-profile {
+    display: flex;
+    align-items: stretch;
+}
+
+.img-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 35px;
+}
+
+.div-name {
+    margin-top: 8px;
+}
+
+.span-small {
+    font-size: 11px;
+    color: #B7B7B7;
+}
+
+.hr-line {
+    width: 95%;
+    color:#B7B7B7 ;
+    border: 0;
+    border-top: 1px solid #eee;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.div-comment {
+    display: flex;
+    align-items: stretch;    
+}
+
+.div-textComment {
+    background: #EEEEEE;
+    border-radius: 14px;
+    padding: 0px 8px 0px 8px;
+    width: 625px;
+    margin-bottom: 8px;
+}
+
+.div-allComment {
+    margin-top: 16px;    
+}
